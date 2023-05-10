@@ -13,4 +13,6 @@ After that, you can run:
 
 ## Available Commands in CLI
 
-### `stop` - stop the Support GPT CLI and save chat history in system
+### `> {your_text}` - input your text to Support GPT CLI and get response
+
+### `> stop` - stop the Support GPT CLI and save chat history in system
