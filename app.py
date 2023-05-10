@@ -5,7 +5,7 @@ from config.config import chat_history_path
 
 if __name__ == "__main__":
     if os.getenv('OPENAI_API_KEY') is None or os.getenv('OPENAI_API_KEY') == "":
-        print("OPENAI_API_KEY is not set. Please add your key to config.py")
+        print("OPENAI_API_KEY is not set. Please add your key to config/config.py")
         exit(1)
 
     if not(os.path.exists(chat_history_path)):
