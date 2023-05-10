@@ -90,5 +90,5 @@ class SupportGPT(object):
                     self.chat_history.append('Human: ' + '\n' + 'AI: ' + '\n')
                 break
             output = conversation_with_summary.predict(input=prompt)
-            print(output)
+            print('>> ' + output)
             self.chat_history.append('Human: ' + prompt + '\n' + 'AI: ' + output + '\n')
